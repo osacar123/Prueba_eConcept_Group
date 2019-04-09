@@ -27,4 +27,5 @@ En el json, el app respondera los siguientes codigos
 * 0002 -> al hacer la validacion de los datos encuentra un error por ejemplo, no se reconoce el email como un email valido o el limite de caracteres del espacio se excedio. Este error retorna un diccionario siendo la llave el campo que tiene el error y el valor siendo el mensaje del error.
 * 0003 -> el email ya existe en la base de datos, no se puede repetir.
 # Base de datos
-la base de datos se elaboro el SQLite, por ser un una prueba, dada su versatilidad y facil uso, sin embargo puede migrar a cualquier motor de sql, dependiendo de la necesidad
+la base de datos se elaboro el SQLite, por ser un una prueba, dada su versatilidad y facil uso, sin embargo puede migrar a cualquier motor de sql, dependiendo de la necesidad.
+El archivo de la base de datos se encuentra dentro del proyecto, asi que no es necesario configurar nada.
