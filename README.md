@@ -16,7 +16,7 @@ Para hacer la peticion a la api, debe ser a la url "http://localhost:8000/create
 # Ejemplo
 Habiendo instalado la dependencia httpie con el comando "pip3 install httpie", y con el servidor arriba de django, se puede poner el siguiente comando en la consola 
 
-http localhost:8000/create_user pf:='{ "canal": "ECO", "codigotrs": "200000", "date":"200222019","idServices":"01", "vrs":"0.1" }' pv:='{"usuario":{"name":"oscar","password":"123456789", "email":"ariasp26@gmail.com"},"Rol":"admin"}' -v
+http localhost:8000/create_user pf:='{ "canal": "ECO", "codigotrs": "200000", "date":"200222019","idServices":"01", "vrs":"0.1" }' pv:='{"usuario":{"name":"miguel","password":"123456789", "email":"miguel@gmail.com"},"Rol":"admin"}' -v
 
 imediatamente respondera el json acordado, dependiendo del resultado.
 
